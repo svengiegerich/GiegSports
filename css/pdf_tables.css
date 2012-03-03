@@ -1,0 +1,91 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {	
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0;
+	font-weight: bold;
+	color: #333;
+	text-rendering: optimizelegibility;
+	margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  font-size: 13px;
+	margin-bottom: 20px;
+	border-collapse: separate;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+.table th, .table td {
+	padding: 8px;
+	line-height: 18px;
+	text-align: left;
+	border-top: 1px solid #DDD;
+	font-size: 10px;
+}
+
+table th, table td {
+	border-left: 1px solid #DDD;
+}
+
+table th {
+	//width: 120px;
+	font-size: 12px;
+	//border-right: 1px solid #DDD;
+}
+
+table tr, tr td {
+	border-top: 1px solid #DDD;
+}
+table td {
+}
+
+table th, table td {
+	//padding: 10px 10px 9px;
+	line-height: 18px;
+}
+
+table th, table td {
+	//border-left: 1px solid #DDD;
+}
+
+.competitor_name {
+	padding-left: 5px;
+}
+
+td .training {
+	width: 20%;
+	height: 5%;
+}
+
+#t-name {
+	width: 100px;
+	//border-right: 1px solid #DDD;
+}
+
+#t-id {
+	width: 30px;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.divider {
+	border-bottom: 1px solid;
+	margin-bottom: 30px ;
+}
+
+.training {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
