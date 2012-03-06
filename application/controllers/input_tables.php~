@@ -144,7 +144,7 @@ class Input_Tables extends CI_Controller {
 								   </table>';*/
 					//$input_table_html .= '<div class="training">;</div><div class="divider"></div>';
 					
-					$input_table_html .= '<h1>' .  'Wettkampfkarte für die Klasse: ' . $class_name . '</h1>';
+					$input_table_html .= '<h1>' .  'Wettkampfkarte für die Klase: ' . $class_name . '</h1>';
 					
 					$i = 0;
 					

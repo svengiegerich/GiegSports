@@ -181,7 +181,7 @@
 					<table class="table table-bordered">
 						<thead>
 							<tr>
-								<th><?php echo ($current_conditions_type == 'classes') ? ('Klasse') : ('Alter') ?></th>
+								<th><?php echo ($current_conditions_type != 'classes') ? ('Klasse') : ('Alter') ?></th>
 								<?php
 								foreach ($all_sport_groups as $sport_group) {
 								echo '<th>' . $sport_group['name'] . '</th>';

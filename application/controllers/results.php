@@ -243,32 +243,29 @@ class Results extends CI_Controller {
 		
 		//"Drucke" die Jahreszahl
 		$x_year = 317 + $move_x_axis;
-		$y_year = 160 + $move_y_axis;
+		$y_year = 161 + $move_y_axis;
 		imagettftext($im, 7, 0, $x_year, $y_year, $black, $font, $year);
 		
 		//"Drucke" den Competitor Name
 		$x_competitor_name = $image_center_x + $move_x_axis;
 		$y_competitor_name = 356 + $move_y_axis;
-		if ($charter_type == 'honor') { 
-			$x_competitor_name = $x_competitor_name - 190; 
-			$y_competitor_name = $y_competitor_name + 8;
-		} 
+		if ($charter_type == 'honor') { $x_competitor_name = $x_competitor_name - 190; } 
 		imagettftext($im, 15, 0, $x_competitor_name, $y_competitor_name, $black, $font, $competitor_name);
 		
 		//"Drucke" die Gesamtpunktzahl
 		$x_competitor_points = 190 + $move_x_axis;
-		$y_competitor_points = 300 + $move_y_axis;
+		$y_competitor_points = 295 + $move_y_axis;
 		imagettftext($im, 15, 0, $x_competitor_points, $y_competitor_points, $black, $font, $total_points);
 		
 		//sport_section_2
-		$x_sport_section_2_1 = 198 + $move_x_axis;
-		$x_sport_section_2_2 = 263 + $move_x_axis;
+		$x_sport_section_2_1 = 203 + $move_x_axis;
+		$x_sport_section_2_2 = 267 + $move_x_axis;
 		$y_sport_section_2 = 218 + $move_y_axis;
 		imageLine($im, $x_sport_section_2_1, $y_sport_section_2, $x_sport_section_2_2, $y_sport_section_2, $black);
 		//sport_section_3
-		$x_sport_section_3_1 = 198 + $move_x_axis;
-		$x_sport_section_3_2 = 263 + $move_x_axis;
-		$y_sport_section_3 = 250 + $move_y_axis;
+		$x_sport_section_3_1 = 203 + $move_x_axis;
+		$x_sport_section_3_2 = 267 + $move_x_axis;
+		$y_sport_section_3 = 247 + $move_y_axis;
 		imageLine($im, $x_sport_section_3_1, $y_sport_section_3, $x_sport_section_3_2, $y_sport_section_3, $black);
 		
 		//druck auch die Ergebnisse 

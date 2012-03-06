@@ -36,7 +36,7 @@
 			<br /><br />
 			<div class="row">
 				<div class="span4">
-					<h2>Durchschnittsleistung:</h2>
+					<h2>Durschnittsleistung:</h2>
 					<div class="result">
 						<h1 class="points">
 							<?php echo round($sport_group['average_result'], 2) . ' ' . $unit; ?>
